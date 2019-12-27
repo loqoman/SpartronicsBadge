@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name digikey-footprints)(type KiCad)(uri /home/loqoman/Programming/Null-Space/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name Battery)(type KiCad)(uri /home/loqoman/Programming/Null-Space/clipslib/Battery.pretty)(options "")(descr ""))
+)
