@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name dk_Slide-Switches)(type Legacy)(uri /home/loqoman/Programming/Null-Space/digikey-kicad-library/digikey-symbols/dk_Slide-Switches.lib)(options "")(descr ""))
-  (lib (name dk_Battery-Holders-Clips-Contacts)(type Legacy)(uri /home/loqoman/Programming/Null-Space/digikey-kicad-library/digikey-symbols/dk_Battery-Holders-Clips-Contacts.lib)(options "")(descr ""))
+  (lib (name dk_Slide-Switches)(type Legacy)(uri /home/darwin/Programming/Robotics/SpartronicsBadge/lib/dk_Slide-Switches.lib)(options "")(descr ""))
 )
