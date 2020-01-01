@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:spartronicsBadgeRev1-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -370,7 +370,7 @@ U 1 1 5E0B0345
 P 4650 1000
 F 0 "J_ExtPwr1" V 4650 1100 50  0000 L CNN
 F 1 "Conn_01x02" V 4750 850 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal" H 4650 1000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4650 1000 50  0001 C CNN
 F 3 "~" H 4650 1000 50  0001 C CNN
 	1    4650 1000
 	0    -1   -1   0   
@@ -743,7 +743,7 @@ U 1 1 5E0FFE41
 P 4650 3150
 F 0 "J_Debug1" H 4700 3467 50  0000 C CNN
 F 1 "Conn_02x03" H 4700 3376 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Horizontal" H 4650 3150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 4650 3150 50  0001 C CNN
 F 3 "~" H 4650 3150 50  0001 C CNN
 	1    4650 3150
 	1    0    0    -1  

@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/loqoman/Programming/Robotics/Badge/spartronicsBadgeRev1/spartronicsBadgeRev1.sch)
-    (date "Thu Dec 26 15:23:05 2019")
+    (source /home/loqoman/Programming/Robotics/SpartronicsBadge/spartronicsBadgeRev1/spartronicsBadgeRev1.sch)
+    (date "Wed 01 Jan 2020 10:36:45 AM PST")
     (tool "Eeschema 5.1.4+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -192,7 +192,7 @@
       (tstamp 5E072F17))
     (comp (ref J_ExtPwr1)
       (value Conn_01x02)
-      (footprint Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal)
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical)
       (datasheet ~)
       (libsource (lib Connector_Generic) (part Conn_01x02) (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
@@ -377,7 +377,7 @@
       (tstamp 5E0FB568))
     (comp (ref J_Debug1)
       (value Conn_02x03)
-      (footprint Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Horizontal)
+      (footprint Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical)
       (datasheet ~)
       (libsource (lib Connector_Generic) (part Conn_02x03_Top_Bottom) (description "Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
@@ -541,7 +541,7 @@
     (library (logical MCU_Microchip_ATmega)
       (uri /usr/share/kicad/library/MCU_Microchip_ATmega.lib))
     (library (logical dk_Slide-Switches)
-      (uri /home/loqoman/Programming/Null-Space/digikey-kicad-library/digikey-symbols/dk_Slide-Switches.lib)))
+      (uri /home/loqoman/Programming/Robotics/SpartronicsBadge/spartronicsBadgeRev1/../lib/dk_Slide-Switches.lib)))
   (nets
     (net (code 1) (name GND)
       (node (ref DW3) (pin 1))
