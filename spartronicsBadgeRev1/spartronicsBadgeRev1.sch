@@ -748,7 +748,7 @@ F 3 "~" H 4650 3150 50  0001 C CNN
 	1    4650 3150
 	1    0    0    -1  
 $EndComp
-Text GLabel 6050 5200 2    39   Input ~ 0
+Text GLabel 6150 5200 2    39   Input ~ 0
 RESET
 Wire Wire Line
 	5950 5200 6150 5200
@@ -829,11 +829,11 @@ Text Notes 4300 800  0    39   ~ 0
 Label On Sickscreen
 Text Notes 4100 1850 0    39   ~ 0
 Later Revisions add reverse \nprotection(shotkeyy) diode here?
-Text GLabel 6050 3700 2    39   Input ~ 0
+Text GLabel 6050 5100 2    39   Input ~ 0
 NLED1_SIG
-Text GLabel 6050 3800 2    39   Input ~ 0
+Text GLabel 6050 5000 2    39   Input ~ 0
 NLED2_SIG
-Text GLabel 6050 3900 2    39   Input ~ 0
+Text GLabel 6050 5400 2    39   Input ~ 0
 NLED3_SIG
 Wire Wire Line
 	5950 3700 6050 3700
@@ -841,35 +841,35 @@ Wire Wire Line
 	5950 3800 6050 3800
 Wire Wire Line
 	5950 3900 6050 3900
-Text GLabel 6050 4600 2    39   Input ~ 0
-NELED1_SIG
-Text GLabel 6050 4700 2    39   Input ~ 0
-NELED2_SIG
-Text GLabel 6050 4800 2    39   Input ~ 0
-NELED3_SIG
-Text GLabel 6050 4900 2    39   Input ~ 0
-ELED1_SIG
-Text GLabel 6050 5000 2    39   Input ~ 0
-ELED2_SIG
-Text GLabel 6050 5100 2    39   Input ~ 0
-ELED3_SIG
-Text GLabel 6050 5400 2    39   Input ~ 0
-SELED1_SIG
-Text GLabel 6050 5500 2    39   Input ~ 0
-SELED2_SIG
-Text GLabel 6050 5600 2    39   Input ~ 0
-SELED3_SIG
 Text GLabel 6050 5700 2    39   Input ~ 0
-SLED1_SIG
-Text GLabel 6050 5800 2    39   Input ~ 0
-SLED2_SIG
-Text GLabel 6050 5900 2    39   Input ~ 0
-SLED3_SIG
-Text GLabel 4650 5600 0    39   Input ~ 0
-SWLED1_SIG
-Text GLabel 4650 5500 0    39   Input ~ 0
-SWLED2_SIG
+NELED1_SIG
+Text GLabel 6050 5600 2    39   Input ~ 0
+NELED2_SIG
+Text GLabel 6050 5500 2    39   Input ~ 0
+NELED3_SIG
+Text GLabel 6050 6000 2    39   Input ~ 0
+ELED1_SIG
 Text GLabel 4650 5400 0    39   Input ~ 0
+ELED2_SIG
+Text GLabel 6050 5800 2    39   Input ~ 0
+ELED3_SIG
+Text GLabel 6050 3900 2    39   Input ~ 0
+SELED1_SIG
+Text GLabel 6050 4400 2    39   Input ~ 0
+SELED2_SIG
+Text GLabel 4650 5500 0    39   Input ~ 0
+SELED3_SIG
+Text GLabel 6050 3800 2    39   Input ~ 0
+SLED1_SIG
+Text GLabel 6050 6100 2    39   Input ~ 0
+SLED2_SIG
+Text GLabel 6050 3700 2    39   Input ~ 0
+SLED3_SIG
+Text GLabel 6050 4300 2    39   Input ~ 0
+SWLED1_SIG
+Text GLabel 6350 4200 2    39   Input ~ 0
+SWLED2_SIG
+Text GLabel 6050 5900 2    39   Input ~ 0
 SWLED3_SIG
 $Comp
 L power:GND #PWR0105
@@ -1185,11 +1185,11 @@ F 3 "" H 2800 1300 50  0001 C CNN
 	1    2800 1300
 	0    1    1    0   
 $EndComp
-Text GLabel 6050 6000 2    39   Input ~ 0
-WLED1_SIG
-Text GLabel 6050 6100 2    39   Input ~ 0
-WLED2_SIG
 Text GLabel 4650 5700 0    39   Input ~ 0
+WLED1_SIG
+Text GLabel 4650 5600 0    39   Input ~ 0
+WLED2_SIG
+Text GLabel 6050 4600 2    39   Input ~ 0
 WLED3_SIG
 Wire Wire Line
 	4650 5400 4750 5400
@@ -1227,11 +1227,11 @@ Wire Wire Line
 	5950 4700 6050 4700
 Wire Wire Line
 	6050 4600 5950 4600
-Text GLabel 6350 4200 2    39   Input ~ 0
+Text GLabel 6050 4800 2    39   Input ~ 0
 NWLED1_SIG
-Text GLabel 6050 4300 2    39   Input ~ 0
+Text GLabel 6050 4900 2    39   Input ~ 0
 NWLED2_SIG
-Text GLabel 6050 4400 2    39   Input ~ 0
+Text GLabel 6050 4700 2    39   Input ~ 0
 NWLED3_SIG
 Wire Wire Line
 	6300 4250 6300 4200
@@ -1389,4 +1389,6 @@ Wire Wire Line
 	5600 1000 5450 1000
 Wire Wire Line
 	5150 1000 5050 1000
+Text Notes 4300 7000 0    39   ~ 0
+Nb: Pin assignments look haphazard, but correspond to footprint\n
 $EndSCHEMATC
